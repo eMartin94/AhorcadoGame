@@ -76,7 +76,7 @@ function reset() {
     letra_ingresada = "";
     letra_erronea = 0;
     res.style.display = "none";
-    document.imagen.src = "/img/imgInicial.png";
+    document.imagen.src = "./img/imgInicial.png";
 }
 
 function seleccionarPalabra() {
